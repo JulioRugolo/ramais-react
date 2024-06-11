@@ -1,38 +1,177 @@
-.App {
+/* src/App.css */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f2f2f2;
+  font-size: 12px;
+}
+
+header {
+  position: fixed;
+  top: 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  width: 100%;
+  background-color: #000000;
+  color: #fff;
+  padding: 15px 0;
   text-align: center;
+  box-shadow: black 0px 0px 10px;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+header img {
+  width: 150px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+header h1 {
+  font-size: 24px;
+  margin-top: 20px;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.form-container {
+  margin-top: 80px;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  text-align: center;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
-.App-link {
-  color: #61dafb;
+table {
+  width: 80%;
+  max-width: 1200px;
+  margin-top: 20px;
+  border-collapse: collapse;
+  margin-bottom: 50px;
+  background-color: #ffffff;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  overflow-x: auto; /* Adicionado para rolagem horizontal */
 }
 
-@keyframes App-logo-spin {
-  from {
+table, th, td {
+  border: 1px solid #040404;
+}
+
+th, td {
+  padding: 12px;
+  text-align: center;
+}
+
+label {
+  margin-top: 10px;
+  margin-right: 10px;
+  color: #333;
+}
+
+input, select {
+  margin-top: 10px;
+  margin-bottom: 20px;
+  text-align: center;
+  font-size: 12px;
+  width: 250px;
+  padding: 8px;
+  border: 1px solid #000000;
+  border-radius: 4px;
+  color: #555;
+}
+
+input:focus, select:focus {
+  outline: none;
+  border-color: #ff7b00;
+}
+
+#filters {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  align-items: center;
+  width: 100%;
+}
+
+#filters div {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+@media only screen and (max-width: 600px) {
+
+  body {
+      font-size: 16px;
+  }	
+  header {
+      flex-direction: column;
+  }
+  #filters {
+      flex-direction: column;
+      gap: 0;
+      width: 100%;
+  }
+
+  #filters div {
+      width: 100%;
+  }
+
+  .form-container {
+      width: 100%;
+      margin-top: 110px;
+  }
+
+  .container {
+      width: 100%;
+  }
+
+  input, select {
+      width: 100%;
+      font-size: 16px;
+  }
+
+  table {
+      width: 100%;
+  }
+
+  td{
+      font-size: 12px;
+  }
+}
+
+.loading {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 200px; /* Ajuste conforme necessário */
+  font-size: 24px;
+  color: #333;
+}
+
+.loading:before {
+  content: "";
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  border: 8px solid #ccc;
+  border-top-color: #ec6623;
+  animation: spin 1s linear infinite;
+  margin-right: 10px;
+}
+
+@keyframes spin {
+  0% {
     transform: rotate(0deg);
   }
-  to {
+  100% {
     transform: rotate(360deg);
   }
 }
+

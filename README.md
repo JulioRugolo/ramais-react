@@ -1,70 +1,50 @@
-# Getting Started with Create React App
+# Ramais React
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Este é um aplicativo de ramal desenvolvido em React para visualização e busca de ramais telefônicos de uma empresa.
 
-## Available Scripts
+## Funcionalidades
 
-In the project directory, you can run:
+- Visualização da lista de ramais.
+- Busca de ramais por nome ou departamento.
+- Detalhes de cada ramal, incluindo número de telefone e departamento.
+- Interface simples e intuitiva.
 
-### `npm start`
+## Instalação
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+1. Certifique-se de ter o Node.js instalado em sua máquina. Você pode baixá-lo e instalá-lo em [nodejs.org](https://nodejs.org/).
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+2. Clone este repositório em sua máquina local:
 
-### `npm test`
+git clone git@github.com:JulioRugolo/ramais-react.git
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-### `npm run build`
+3. Navegue até o diretório do projeto:
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+cd ramais-react
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+4. Instale as dependências necessárias:
 
-### `npm run eject`
+npm install
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+## Uso
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+1. Após a instalação das dependências, inicie o servidor de desenvolvimento:
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+npm start
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+2. O aplicativo será executado localmente em seu navegador padrão. Se não abrir automaticamente, você pode acessá-lo em [http://localhost:3000](http://localhost:3000).
 
-## Learn More
+## Contribuindo
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+Contribuições são bem-vindas! Se você quiser contribuir com este projeto, siga estas etapas:
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+1. Fork este repositório.
+2. Crie um branch para sua nova feature (`git checkout -b feature/nova-feature`).
+3. Faça suas modificações e commit (`git commit -am 'Adicione sua mensagem aqui'`).
+4. Push para o branch (`git push origin feature/nova-feature`).
+5. Abra um Pull Request.
 
-### Code Splitting
+## Licença
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Este projeto é licenciado sob a Licença MIT - veja o arquivo [LICENSE](LICENSE) para mais detalhes.
