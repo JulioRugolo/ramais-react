@@ -15,23 +15,29 @@ Este é um aplicativo de ramal desenvolvido em React para visualização e busca
 
 2. Clone este repositório em sua máquina local:
 
+```
 git clone git@github.com:JulioRugolo/ramais-react.git
-
+```
 
 3. Navegue até o diretório do projeto:
 
+```
 cd ramais-react
-
+```
 
 4. Instale as dependências necessárias:
 
+```
 npm install
+```
 
 ## Uso
 
 1. Após a instalação das dependências, inicie o servidor de desenvolvimento:
 
+```
 npm start
+```
 
 2. O aplicativo será executado localmente em seu navegador padrão. Se não abrir automaticamente, você pode acessá-lo em [http://localhost:3000](http://localhost:3000).
 
