@@ -50,7 +50,3 @@ Contribuições são bem-vindas! Se você quiser contribuir com este projeto, si
 3. Faça suas modificações e commit (`git commit -am 'Adicione sua mensagem aqui'`).
 4. Push para o branch (`git push origin feature/nova-feature`).
 5. Abra um Pull Request.
-
-## Licença
-
-Este projeto é licenciado sob a Licença MIT - veja o arquivo [LICENSE](LICENSE) para mais detalhes.
